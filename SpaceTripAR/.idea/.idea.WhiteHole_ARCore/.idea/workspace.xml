@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="19e1ac40-d82f-4554-924f-311ea45786e3" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="GameController.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="6120">
+                  <caret line="306" column="63" selection-start-line="306" selection-start-column="63" selection-end-line="306" selection-end-column="63" />
+                  <folding>
+                    <marker date="1531761778839" expanded="true" signature="0:838" ph="/* ----------------------------------------------------------------------- ... */" />
+                    <marker date="1531761778839" expanded="true" signature="883:13187" ph="{...}" />
+                    <marker date="1531761778839" expanded="true" signature="896:1212" ph="..." />
+                    <marker date="1531761778839" expanded="true" signature="1225:1295" ph="/// Controller for the WhiteHole. ... " />
+                    <marker date="1531761778839" expanded="true" signature="1340:13185" ph="{...}" />
+                    <marker date="1531761778839" expanded="true" signature="1359:1465" ph="/// A controller for managing UI associated with the example. ... " />
+                    <marker date="1531761778839" expanded="true" signature="1556:1659" ph="/* The root for ARCore-specific GameObjects in the scene. ... */" />
+                    <marker date="1531761778839" expanded="true" signature="1707:1879" ph="/// An Andy Android model to visually represent anchors in the scene; this uses ARCore ... " />
+                    <marker date="1531761778839" expanded="true" signature="1967:2069" ph="/* The root for ARKit-specific GameObjects in the scene. ... */" />
+                    <marker date="1531761778839" expanded="true" signature="2116:2240" ph="/// The first-person camera used to render the AR background texture for ARKit. ... " />
+                    <marker date="1531761778839" expanded="true" signature="2296:2458" ph="/// An Andy Android model to visually represent anchors in the scene; this uses ... " />
+                    <marker date="1531761778839" expanded="true" signature="2518:2657" ph="/* The loopback ip address. ... */" />
+                    <marker date="1531761778839" expanded="true" signature="2667:2793" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
+                    <marker date="1531761778839" expanded="true" signature="2857:2945" ph="/// A helper object to ARKit functionality. ... " />
+                    <marker date="1531761778839" expanded="true" signature="3012:3158" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
+                    <marker date="1531761778839" expanded="true" signature="3211:3283" ph="/// The last placed anchor. ... " />
+                    <marker date="1531761778839" expanded="true" signature="3346:3420" ph="/// The last resolved anchor. ... " />
+                    <marker date="1531761778839" expanded="true" signature="3475:4019" ph="/* The current cloud anchor mode. ... */" />
+                    <marker date="1531761778839" expanded="true" signature="4037:4111" ph="/// The Unity Start() method. ... " />
+                    <marker date="1531761778839" expanded="true" signature="4139:4509" ph="{...}" />
+                    <marker date="1531761778839" expanded="true" signature="4219:4335" ph="{...}" />
+                    <marker date="1531761778839" expanded="true" signature="4352:4468" ph="{...}" />
+                    <marker date="1531761778839" expanded="true" signature="4519:4594" ph="/// The Unity Update() method. ... " />
+                    <marker date="1531761778839" expanded="true" signature="4623:6340" ph="{...}" />
+                    <marker date="1531761778839" expanded="true" signature="4895:4947" ph="{...}" />
+                    <marker date="1531761778839" expanded="true" signature="5103:5422" ph="{...}" />
+                    <marker date="1531761778839" expanded="true" signature="5293:5408" ph="{...}" />
+                    <marker date="1531761778839" expanded="true" signature="5439:5720" ph="{...}" />
+                    <marker date="1531761778839" expanded="true" signature="5598:5706" ph="{...}" />
+                    <marker date="1531761778839" expanded="true" signature="5765:6330" ph="{...}" />
+                    <marker date="1531761778839" expanded="true" signature="6341:7568" ph="/* Handles user intent to enter a mode where they can place an anchor to host or to exit this mode if ... */" />
+                    <marker date="1531761778839" expanded="true" signature="7577:10203" ph="/* Handles the user intent to resolve the cloud anchor associated with a room they have typed into the UI. ... */" />
+                    <marker date="1531761778839" expanded="true" signature="10212:10390" ph="/// Gets the platform-specific Andy the android prefab. ... " />
+                    <marker date="1531761778839" expanded="true" signature="10434:10594" ph="{...}" />
+                    <marker date="1531761778839" expanded="true" signature="10604:10696" ph="/// Check and update the application lifecycle. ... " />
+                    <marker date="1531761778839" expanded="true" signature="10747:12067" ph="{...}" />
+                    <marker date="1531761778839" expanded="true" signature="10866:10930" ph="{...}" />
+                    <marker date="1531761778839" expanded="true" signature="11126:11268" ph="{...}" />
+                    <marker date="1531761778839" expanded="true" signature="11355:11407" ph="{...}" />
+                    <marker date="1531761778839" expanded="true" signature="11585:11789" ph="{...}" />
+                    <marker date="1531761778839" expanded="true" signature="11836:12057" ph="{...}" />
+                    <marker date="1531761778839" expanded="true" signature="12077:12156" ph="/// Actually quit the application. ... " />
+                    <marker date="1531761778839" expanded="true" signature="12187:12239" ph="{...}" />
+                    <marker date="1531761778839" expanded="true" signature="12249:12407" ph="/// Show an Android toast message. ... " />
+                    <marker date="1531761778839" expanded="true" signature="12469:13179" ph="{...}" />
+                    <marker date="1531761778839" expanded="true" signature="12725:13169" ph="{...}" />
+                    <marker date="1531761778839" expanded="true" signature="12913:13152" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CloudAnchorUIController.cs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchor/Scripts/CloudAnchorUIController.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="439">
+                  <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="33" selection-end-column="5" />
+                  <folding>
+                    <marker date="1528813748000" expanded="true" signature="0:840" ph="/* ----------------------------------------------------------------------- ... */" />
+                    <marker date="1528813748000" expanded="true" signature="885:8491" ph="{...}" />
+                    <marker date="1528813748000" expanded="false" signature="898:1076" ph="..." />
+                    <marker date="1528813748000" expanded="true" signature="1082:1175" ph="/// Controller managing UI for the Cloud Anchor Example. ... " />
+                    <marker date="1528813748000" expanded="true" signature="1232:8489" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="1247:1357" ph="/// A gameobject parenting UI for displaying feedback and errors. ... " />
+                    <marker date="1528813748000" expanded="true" signature="1401:1493" ph="/// A text element displaying the current Room. ... " />
+                    <marker date="1528813748000" expanded="true" signature="1533:1632" ph="/// A text element displaying the device's IP Address. ... " />
+                    <marker date="1528813748000" expanded="true" signature="1677:1754" ph="/// The host anchor mode button. ... " />
+                    <marker date="1528813748000" expanded="true" signature="1808:1888" ph="/// The resolve anchor mode button. ... " />
+                    <marker date="1528813748000" expanded="true" signature="1945:2027" ph="/// The root for the input interface. ... " />
+                    <marker date="1528813748000" expanded="true" signature="2074:2152" ph="/// The input field for the room. ... " />
+                    <marker date="1528813748000" expanded="true" signature="2204:2288" ph="/// The input field for the ip address. ... " />
+                    <marker date="1528813748000" expanded="true" signature="2345:2451" ph="/// The field for toggling loopback (local) anchor resoltion. ... " />
+                    <marker date="1528813748000" expanded="true" signature="2506:2580" ph="/// The Unity Start() method. ... " />
+                    <marker date="1528813748000" expanded="true" signature="2608:2707" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="2717:2804" ph="/// Shows UI for application &quot;Ready Mode&quot;. ... " />
+                    <marker date="1528813748000" expanded="true" signature="2840:3252" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="3262:3459" ph="/// Shows UI for the beginning phase of application &quot;Hosting Mode&quot;. ... " />
+                    <marker date="1528813748000" expanded="true" signature="3528:4188" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="3869:4042" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="4059:4137" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="4198:4319" ph="/// Shows UI for the attempting to host phase of application &quot;Hosting Mode&quot;. ... " />
+                    <marker date="1528813748000" expanded="true" signature="4371:4774" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="4784:4983" ph="/// Shows UI for the beginning phase of application &quot;Resolving Mode&quot;. ... " />
+                    <marker date="1528813748000" expanded="true" signature="5054:5649" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="5392:5504" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="5521:5599" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="5659:5785" ph="/// Shows UI for the attempting to resolve phase of application &quot;Resolving Mode&quot;. ... " />
+                    <marker date="1528813748000" expanded="true" signature="5842:6243" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="6253:6376" ph="/// Shows UI for the successful resolve phase of application &quot;Resolving Mode&quot;. ... " />
+                    <marker date="1528813748000" expanded="true" signature="6423:6831" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="6841:6990" ph="/// Sets the room number in the UI. ... " />
+                    <marker date="1528813748000" expanded="true" signature="7043:7114" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="7124:7298" ph="/// Gets the value of the resolve on device checkbox. ... " />
+                    <marker date="1528813748000" expanded="true" signature="7344:7411" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="7421:7589" ph="/// Gets the value of the room number input field. ... " />
+                    <marker date="1528813748000" expanded="true" signature="7628:7829" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="7733:7796" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="7839:8005" ph="/// Gets the value of the ip address input field. ... " />
+                    <marker date="1528813748000" expanded="true" signature="8052:8117" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="8127:8322" ph="/// Handles a change to the &quot;Resolve on Device&quot; checkbox. ... " />
+                    <marker date="1528813748000" expanded="true" signature="8396:8483" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="HelloARController.cs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="133">
+                  <caret line="149" selection-start-line="149" selection-end-line="149" />
+                  <folding>
+                    <marker date="1528813748000" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
+                    <marker date="1528813748000" expanded="true" signature="875:7815" ph="{...}" />
+                    <marker date="1528813748000" expanded="false" signature="888:1140" ph="..." />
+                    <marker date="1528813748000" expanded="true" signature="1153:1223" ph="/// Controls the HelloAR example. ... " />
+                    <marker date="1528813748000" expanded="true" signature="1274:7813" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="1289:1433" ph="/// The first-person camera being used to render the passthrough camera image (i.e. AR background). ... " />
+                    <marker date="1528813748000" expanded="true" signature="1484:1587" ph="/// A prefab for tracking and visualizing detected planes. ... " />
+                    <marker date="1528813748000" expanded="true" signature="1644:1756" ph="/// A model to place when a raycast from a user touch hits a plane. ... " />
+                    <marker date="1528813748000" expanded="true" signature="1811:1937" ph="/// A gameobject parenting UI for displaying the &quot;searching for planes&quot; snackbar. ... " />
+                    <marker date="1528813748000" expanded="true" signature="1994:2120" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
+                    <marker date="1528813748000" expanded="true" signature="2184:2386" ph="/// A list to hold all planes ARCore is tracking in the current frame. This object is used across ... " />
+                    <marker date="1528813748000" expanded="true" signature="2473:2619" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
+                    <marker date="1528813748000" expanded="true" signature="2672:2747" ph="/// The Unity Update() method. ... " />
+                    <marker date="1528813748000" expanded="true" signature="2776:5235" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="3063:3275" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="3153:3261" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="3544:3596" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="3954:5225" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="3985:4126" ph="/* Use hit pose and camera pose to check if hittest is from the ... */" />
+                    <marker date="1528813748000" expanded="true" signature="4333:4444" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="4465:5211" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="4863:4991" ph="/* Create an anchor to allow ARCore to track the hitpoint as understanding of the physical ... */" />
+                    <marker date="1528813748000" expanded="true" signature="5245:5337" ph="/// Check and update the application lifecycle. ... " />
+                    <marker date="1528813748000" expanded="true" signature="5388:6695" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="5507:5571" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="5695:5844" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="5861:5952" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="5983:6035" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="6213:6417" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="6464:6685" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="6705:6784" ph="/// Actually quit the application. ... " />
+                    <marker date="1528813748000" expanded="true" signature="6815:6867" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="6877:7035" ph="/// Show an Android toast message. ... " />
+                    <marker date="1528813748000" expanded="true" signature="7097:7807" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="7353:7797" ph="{...}" />
+                    <marker date="1528813748000" expanded="true" signature="7541:7780" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hit</find>
+      <find>Planes</find>
+      <find>Session.Status != SessionStatus.Tracking</find>
+      <find>_UpdateApplicationLifecycle</find>
+      <find>ARKit</find>
+      <find>light</find>
+      <find>middleGray</find>
+      <find>fixed3</find>
+      <find>scale</find>
+      <find>_GlobalColorCorrection</find>
+      <find>RoomSharingServer</find>
+      <find>FirstPersonCamera</find>
+      <find>k_LoopbackIpAddress</find>
+      <find>UIController</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Shaders/MobileDiffuseWithLightEstimation.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Scripts/InstantPreviewManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/EnvironmentalLight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Scripts/DetectedPlaneVisualizer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchor/Scripts/CloudAnchorUIController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchor/Scripts/CloudAnchorController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="240" />
+    <option name="y" value="135" />
+    <option name="width" value="1440" />
+    <option name="height" value="810" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WhiteHole_ARCore" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19e1ac40-d82f-4554-924f-311ea45786e3" name="Default" comment="" />
+      <created>1531079363164</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531079363164</updated>
+      <workItem from="1531079367634" duration="31000" />
+      <workItem from="1531157486080" duration="651000" />
+      <workItem from="1531248851173" duration="4399000" />
+      <workItem from="1531337220946" duration="3274000" />
+      <workItem from="1531417859344" duration="3912000" />
+      <workItem from="1531756728632" duration="7393000" />
+      <workItem from="1531947927561" duration="1122000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20782000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.14613779" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18390192" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="8" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs</url>
+          <line>149</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs" initialLine="149">
+            <startOffsets>
+              <startOffset value="5783" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="5830" />
+            </endOffsets>
+          </properties>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6120">
+          <caret line="306" column="63" selection-start-line="306" selection-start-column="63" selection-end-line="306" selection-end-column="63" />
+          <folding>
+            <marker date="1531761778839" expanded="true" signature="0:838" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1531761778839" expanded="true" signature="883:13187" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="896:1212" ph="..." />
+            <marker date="1531761778839" expanded="true" signature="1225:1295" ph="/// Controller for the WhiteHole. ... " />
+            <marker date="1531761778839" expanded="true" signature="1340:13185" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="1359:1465" ph="/// A controller for managing UI associated with the example. ... " />
+            <marker date="1531761778839" expanded="true" signature="1556:1659" ph="/* The root for ARCore-specific GameObjects in the scene. ... */" />
+            <marker date="1531761778839" expanded="true" signature="1707:1879" ph="/// An Andy Android model to visually represent anchors in the scene; this uses ARCore ... " />
+            <marker date="1531761778839" expanded="true" signature="1967:2069" ph="/* The root for ARKit-specific GameObjects in the scene. ... */" />
+            <marker date="1531761778839" expanded="true" signature="2116:2240" ph="/// The first-person camera used to render the AR background texture for ARKit. ... " />
+            <marker date="1531761778839" expanded="true" signature="2296:2458" ph="/// An Andy Android model to visually represent anchors in the scene; this uses ... " />
+            <marker date="1531761778839" expanded="true" signature="2518:2657" ph="/* The loopback ip address. ... */" />
+            <marker date="1531761778839" expanded="true" signature="2667:2793" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
+            <marker date="1531761778839" expanded="true" signature="2857:2945" ph="/// A helper object to ARKit functionality. ... " />
+            <marker date="1531761778839" expanded="true" signature="3012:3158" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
+            <marker date="1531761778839" expanded="true" signature="3211:3283" ph="/// The last placed anchor. ... " />
+            <marker date="1531761778839" expanded="true" signature="3346:3420" ph="/// The last resolved anchor. ... " />
+            <marker date="1531761778839" expanded="true" signature="3475:4019" ph="/* The current cloud anchor mode. ... */" />
+            <marker date="1531761778839" expanded="true" signature="4037:4111" ph="/// The Unity Start() method. ... " />
+            <marker date="1531761778839" expanded="true" signature="4139:4509" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="4219:4335" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="4352:4468" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="4519:4594" ph="/// The Unity Update() method. ... " />
+            <marker date="1531761778839" expanded="true" signature="4623:6340" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="4895:4947" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="5103:5422" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="5293:5408" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="5439:5720" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="5598:5706" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="5765:6330" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="6341:7568" ph="/* Handles user intent to enter a mode where they can place an anchor to host or to exit this mode if ... */" />
+            <marker date="1531761778839" expanded="true" signature="7577:10203" ph="/* Handles the user intent to resolve the cloud anchor associated with a room they have typed into the UI. ... */" />
+            <marker date="1531761778839" expanded="true" signature="10212:10390" ph="/// Gets the platform-specific Andy the android prefab. ... " />
+            <marker date="1531761778839" expanded="true" signature="10434:10594" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="10604:10696" ph="/// Check and update the application lifecycle. ... " />
+            <marker date="1531761778839" expanded="true" signature="10747:12067" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="10866:10930" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="11126:11268" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="11355:11407" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="11585:11789" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="11836:12057" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="12077:12156" ph="/// Actually quit the application. ... " />
+            <marker date="1531761778839" expanded="true" signature="12187:12239" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="12249:12407" ph="/// Show an Android toast message. ... " />
+            <marker date="1531761778839" expanded="true" signature="12469:13179" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="12725:13169" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="12913:13152" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchor/Scripts/CloudAnchorUIController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <marker date="1528813748000" expanded="true" signature="0:840" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1528813748000" expanded="true" signature="885:8491" ph="{...}" />
+            <marker date="1528813748000" expanded="false" signature="898:1076" ph="..." />
+            <marker date="1528813748000" expanded="true" signature="1082:1175" ph="/// Controller managing UI for the Cloud Anchor Example. ... " />
+            <marker date="1528813748000" expanded="true" signature="1232:8489" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="1247:1357" ph="/// A gameobject parenting UI for displaying feedback and errors. ... " />
+            <marker date="1528813748000" expanded="true" signature="1401:1493" ph="/// A text element displaying the current Room. ... " />
+            <marker date="1528813748000" expanded="true" signature="1533:1632" ph="/// A text element displaying the device's IP Address. ... " />
+            <marker date="1528813748000" expanded="true" signature="1677:1754" ph="/// The host anchor mode button. ... " />
+            <marker date="1528813748000" expanded="true" signature="1808:1888" ph="/// The resolve anchor mode button. ... " />
+            <marker date="1528813748000" expanded="true" signature="1945:2027" ph="/// The root for the input interface. ... " />
+            <marker date="1528813748000" expanded="true" signature="2074:2152" ph="/// The input field for the room. ... " />
+            <marker date="1528813748000" expanded="true" signature="2204:2288" ph="/// The input field for the ip address. ... " />
+            <marker date="1528813748000" expanded="true" signature="2345:2451" ph="/// The field for toggling loopback (local) anchor resoltion. ... " />
+            <marker date="1528813748000" expanded="true" signature="2506:2580" ph="/// The Unity Start() method. ... " />
+            <marker date="1528813748000" expanded="true" signature="2608:2707" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="2717:2804" ph="/// Shows UI for application &quot;Ready Mode&quot;. ... " />
+            <marker date="1528813748000" expanded="true" signature="2840:3252" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="3262:3459" ph="/// Shows UI for the beginning phase of application &quot;Hosting Mode&quot;. ... " />
+            <marker date="1528813748000" expanded="true" signature="3528:4188" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="3869:4042" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="4059:4137" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="4198:4319" ph="/// Shows UI for the attempting to host phase of application &quot;Hosting Mode&quot;. ... " />
+            <marker date="1528813748000" expanded="true" signature="4371:4774" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="4784:4983" ph="/// Shows UI for the beginning phase of application &quot;Resolving Mode&quot;. ... " />
+            <marker date="1528813748000" expanded="true" signature="5054:5649" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="5392:5504" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="5521:5599" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="5659:5785" ph="/// Shows UI for the attempting to resolve phase of application &quot;Resolving Mode&quot;. ... " />
+            <marker date="1528813748000" expanded="true" signature="5842:6243" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="6253:6376" ph="/// Shows UI for the successful resolve phase of application &quot;Resolving Mode&quot;. ... " />
+            <marker date="1528813748000" expanded="true" signature="6423:6831" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="6841:6990" ph="/// Sets the room number in the UI. ... " />
+            <marker date="1528813748000" expanded="true" signature="7043:7114" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="7124:7298" ph="/// Gets the value of the resolve on device checkbox. ... " />
+            <marker date="1528813748000" expanded="true" signature="7344:7411" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="7421:7589" ph="/// Gets the value of the room number input field. ... " />
+            <marker date="1528813748000" expanded="true" signature="7628:7829" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="7733:7796" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="7839:8005" ph="/// Gets the value of the ip address input field. ... " />
+            <marker date="1528813748000" expanded="true" signature="8052:8117" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="8127:8322" ph="/// Handles a change to the &quot;Resolve on Device&quot; checkbox. ... " />
+            <marker date="1528813748000" expanded="true" signature="8396:8483" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3740">
+          <caret line="187" column="78" selection-start-line="187" selection-start-column="78" selection-end-line="187" selection-end-column="78" />
+          <folding>
+            <marker date="1528813748000" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1528813748000" expanded="true" signature="875:7815" ph="{...}" />
+            <marker date="1528813748000" expanded="false" signature="888:1140" ph="..." />
+            <marker date="1528813748000" expanded="true" signature="1153:1223" ph="/// Controls the HelloAR example. ... " />
+            <marker date="1528813748000" expanded="true" signature="1274:7813" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="1289:1433" ph="/// The first-person camera being used to render the passthrough camera image (i.e. AR background). ... " />
+            <marker date="1528813748000" expanded="true" signature="1484:1587" ph="/// A prefab for tracking and visualizing detected planes. ... " />
+            <marker date="1528813748000" expanded="true" signature="1644:1756" ph="/// A model to place when a raycast from a user touch hits a plane. ... " />
+            <marker date="1528813748000" expanded="true" signature="1811:1937" ph="/// A gameobject parenting UI for displaying the &quot;searching for planes&quot; snackbar. ... " />
+            <marker date="1528813748000" expanded="true" signature="1994:2120" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
+            <marker date="1528813748000" expanded="true" signature="2184:2386" ph="/// A list to hold all planes ARCore is tracking in the current frame. This object is used across ... " />
+            <marker date="1528813748000" expanded="true" signature="2473:2619" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
+            <marker date="1528813748000" expanded="true" signature="2672:2747" ph="/// The Unity Update() method. ... " />
+            <marker date="1528813748000" expanded="true" signature="2776:5235" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="3063:3275" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="3153:3261" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="3544:3596" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="3954:5225" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="3985:4126" ph="/* Use hit pose and camera pose to check if hittest is from the ... */" />
+            <marker date="1528813748000" expanded="true" signature="4333:4444" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="4465:5211" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="4863:4991" ph="/* Create an anchor to allow ARCore to track the hitpoint as understanding of the physical ... */" />
+            <marker date="1528813748000" expanded="true" signature="5245:5337" ph="/// Check and update the application lifecycle. ... " />
+            <marker date="1528813748000" expanded="true" signature="5388:6695" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="5507:5571" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="5695:5844" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="5861:5952" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="5983:6035" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="6213:6417" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="6464:6685" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="6705:6784" ph="/// Actually quit the application. ... " />
+            <marker date="1528813748000" expanded="true" signature="6815:6867" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="6877:7035" ph="/// Show an Android toast message. ... " />
+            <marker date="1528813748000" expanded="true" signature="7097:7807" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="7353:7797" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="7541:7780" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchor/Scripts/CloudAnchorController.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2820">
+          <caret line="148" column="56" lean-forward="true" selection-start-line="148" selection-start-column="56" selection-end-line="148" selection-end-column="56" />
+          <folding>
+            <marker date="1528813748000" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1528813748000" expanded="true" signature="875:7815" ph="{...}" />
+            <marker date="1528813748000" expanded="false" signature="888:1140" ph="..." />
+            <marker date="1528813748000" expanded="true" signature="1153:1223" ph="/// Controls the HelloAR example. ... " />
+            <marker date="1528813748000" expanded="true" signature="1274:7813" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="1289:1433" ph="/// The first-person camera being used to render the passthrough camera image (i.e. AR background). ... " />
+            <marker date="1528813748000" expanded="true" signature="1484:1587" ph="/// A prefab for tracking and visualizing detected planes. ... " />
+            <marker date="1528813748000" expanded="true" signature="1644:1756" ph="/// A model to place when a raycast from a user touch hits a plane. ... " />
+            <marker date="1528813748000" expanded="true" signature="1811:1937" ph="/// A gameobject parenting UI for displaying the &quot;searching for planes&quot; snackbar. ... " />
+            <marker date="1528813748000" expanded="true" signature="1994:2120" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
+            <marker date="1528813748000" expanded="true" signature="2184:2386" ph="/// A list to hold all planes ARCore is tracking in the current frame. This object is used across ... " />
+            <marker date="1528813748000" expanded="true" signature="2473:2619" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
+            <marker date="1528813748000" expanded="true" signature="2672:2747" ph="/// The Unity Update() method. ... " />
+            <marker date="1528813748000" expanded="true" signature="2776:5235" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="3063:3275" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="3153:3261" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="3544:3596" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="3954:5225" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="3985:4126" ph="/* Use hit pose and camera pose to check if hittest is from the ... */" />
+            <marker date="1528813748000" expanded="true" signature="4333:4444" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="4465:5211" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="4863:4991" ph="/* Create an anchor to allow ARCore to track the hitpoint as understanding of the physical ... */" />
+            <marker date="1528813748000" expanded="true" signature="5245:5337" ph="/// Check and update the application lifecycle. ... " />
+            <marker date="1528813748000" expanded="true" signature="5388:6695" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="5507:5571" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="5695:5844" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="5861:5952" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="5983:6035" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="6213:6417" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="6464:6685" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="6705:6784" ph="/// Actually quit the application. ... " />
+            <marker date="1528813748000" expanded="true" signature="6815:6867" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="6877:7035" ph="/// Show an Android toast message. ... " />
+            <marker date="1528813748000" expanded="true" signature="7097:7807" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="7353:7797" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="7541:7780" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+          <folding>
+            <marker date="1528813748000" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1528813748000" expanded="true" signature="875:7815" ph="{...}" />
+            <marker date="1528813748000" expanded="false" signature="888:1140" ph="..." />
+            <marker date="1528813748000" expanded="true" signature="1153:1223" ph="/// Controls the HelloAR example. ... " />
+            <marker date="1528813748000" expanded="true" signature="1274:7813" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="1289:1433" ph="/// The first-person camera being used to render the passthrough camera image (i.e. AR background). ... " />
+            <marker date="1528813748000" expanded="true" signature="1484:1587" ph="/// A prefab for tracking and visualizing detected planes. ... " />
+            <marker date="1528813748000" expanded="true" signature="1644:1756" ph="/// A model to place when a raycast from a user touch hits a plane. ... " />
+            <marker date="1528813748000" expanded="true" signature="1811:1937" ph="/// A gameobject parenting UI for displaying the &quot;searching for planes&quot; snackbar. ... " />
+            <marker date="1528813748000" expanded="true" signature="1994:2120" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
+            <marker date="1528813748000" expanded="true" signature="2184:2386" ph="/// A list to hold all planes ARCore is tracking in the current frame. This object is used across ... " />
+            <marker date="1528813748000" expanded="true" signature="2473:2619" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
+            <marker date="1528813748000" expanded="true" signature="2672:2747" ph="/// The Unity Update() method. ... " />
+            <marker date="1528813748000" expanded="true" signature="2776:5235" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="3063:3275" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="3153:3261" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="3544:3596" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="3954:5225" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="3985:4126" ph="/* Use hit pose and camera pose to check if hittest is from the ... */" />
+            <marker date="1528813748000" expanded="true" signature="4333:4444" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="4465:5211" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="4863:4991" ph="/* Create an anchor to allow ARCore to track the hitpoint as understanding of the physical ... */" />
+            <marker date="1528813748000" expanded="true" signature="5245:5337" ph="/// Check and update the application lifecycle. ... " />
+            <marker date="1528813748000" expanded="true" signature="5388:6695" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="5507:5571" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="5695:5844" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="5861:5952" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="5983:6035" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="6213:6417" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="6464:6685" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="6705:6784" ph="/// Actually quit the application. ... " />
+            <marker date="1528813748000" expanded="true" signature="6815:6867" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="6877:7035" ph="/// Show an Android toast message. ... " />
+            <marker date="1528813748000" expanded="true" signature="7097:7807" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="7353:7797" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="7541:7780" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Scripts/InstantPreviewManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6596">
+          <caret line="408" selection-start-line="408" selection-end-line="408" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GameController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Scripts/InstantPreviewManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="408" selection-start-line="408" selection-end-line="408" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Shaders/MobileDiffuseWithLightEstimation.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Scripts/DetectedPlaneVisualizer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2947">
+          <caret line="158" column="28" selection-start-line="158" selection-start-column="23" selection-end-line="158" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/EnvironmentalLight.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="60" column="33" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchor/Scripts/CloudAnchorController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
+          <folding>
+            <marker date="1528813748000" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1528813748000" expanded="true" signature="875:7815" ph="{...}" />
+            <marker date="1528813748000" expanded="false" signature="888:1140" ph="..." />
+            <marker date="1528813748000" expanded="true" signature="1153:1223" ph="/// Controls the HelloAR example. ... " />
+            <marker date="1528813748000" expanded="true" signature="1274:7813" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="1289:1433" ph="/// The first-person camera being used to render the passthrough camera image (i.e. AR background). ... " />
+            <marker date="1528813748000" expanded="true" signature="1484:1587" ph="/// A prefab for tracking and visualizing detected planes. ... " />
+            <marker date="1528813748000" expanded="true" signature="1644:1756" ph="/// A model to place when a raycast from a user touch hits a plane. ... " />
+            <marker date="1528813748000" expanded="true" signature="1811:1937" ph="/// A gameobject parenting UI for displaying the &quot;searching for planes&quot; snackbar. ... " />
+            <marker date="1528813748000" expanded="true" signature="1994:2120" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
+            <marker date="1528813748000" expanded="true" signature="2184:2386" ph="/// A list to hold all planes ARCore is tracking in the current frame. This object is used across ... " />
+            <marker date="1528813748000" expanded="true" signature="2473:2619" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
+            <marker date="1528813748000" expanded="true" signature="2672:2747" ph="/// The Unity Update() method. ... " />
+            <marker date="1528813748000" expanded="true" signature="2776:5235" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="3063:3275" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="3153:3261" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="3544:3596" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="3954:5225" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="3985:4126" ph="/* Use hit pose and camera pose to check if hittest is from the ... */" />
+            <marker date="1528813748000" expanded="true" signature="4333:4444" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="4465:5211" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="4863:4991" ph="/* Create an anchor to allow ARCore to track the hitpoint as understanding of the physical ... */" />
+            <marker date="1528813748000" expanded="true" signature="5245:5337" ph="/// Check and update the application lifecycle. ... " />
+            <marker date="1528813748000" expanded="true" signature="5388:6695" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="5507:5571" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="5695:5844" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="5861:5952" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="5983:6035" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="6213:6417" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="6464:6685" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="6705:6784" ph="/// Actually quit the application. ... " />
+            <marker date="1528813748000" expanded="true" signature="6815:6867" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="6877:7035" ph="/// Show an Android toast message. ... " />
+            <marker date="1528813748000" expanded="true" signature="7097:7807" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="7353:7797" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="7541:7780" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6120">
+          <caret line="306" column="63" selection-start-line="306" selection-start-column="63" selection-end-line="306" selection-end-column="63" />
+          <folding>
+            <marker date="1531761778839" expanded="true" signature="0:838" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1531761778839" expanded="true" signature="883:13187" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="896:1212" ph="..." />
+            <marker date="1531761778839" expanded="true" signature="1225:1295" ph="/// Controller for the WhiteHole. ... " />
+            <marker date="1531761778839" expanded="true" signature="1340:13185" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="1359:1465" ph="/// A controller for managing UI associated with the example. ... " />
+            <marker date="1531761778839" expanded="true" signature="1556:1659" ph="/* The root for ARCore-specific GameObjects in the scene. ... */" />
+            <marker date="1531761778839" expanded="true" signature="1707:1879" ph="/// An Andy Android model to visually represent anchors in the scene; this uses ARCore ... " />
+            <marker date="1531761778839" expanded="true" signature="1967:2069" ph="/* The root for ARKit-specific GameObjects in the scene. ... */" />
+            <marker date="1531761778839" expanded="true" signature="2116:2240" ph="/// The first-person camera used to render the AR background texture for ARKit. ... " />
+            <marker date="1531761778839" expanded="true" signature="2296:2458" ph="/// An Andy Android model to visually represent anchors in the scene; this uses ... " />
+            <marker date="1531761778839" expanded="true" signature="2518:2657" ph="/* The loopback ip address. ... */" />
+            <marker date="1531761778839" expanded="true" signature="2667:2793" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
+            <marker date="1531761778839" expanded="true" signature="2857:2945" ph="/// A helper object to ARKit functionality. ... " />
+            <marker date="1531761778839" expanded="true" signature="3012:3158" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
+            <marker date="1531761778839" expanded="true" signature="3211:3283" ph="/// The last placed anchor. ... " />
+            <marker date="1531761778839" expanded="true" signature="3346:3420" ph="/// The last resolved anchor. ... " />
+            <marker date="1531761778839" expanded="true" signature="3475:4019" ph="/* The current cloud anchor mode. ... */" />
+            <marker date="1531761778839" expanded="true" signature="4037:4111" ph="/// The Unity Start() method. ... " />
+            <marker date="1531761778839" expanded="true" signature="4139:4509" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="4219:4335" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="4352:4468" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="4519:4594" ph="/// The Unity Update() method. ... " />
+            <marker date="1531761778839" expanded="true" signature="4623:6340" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="4895:4947" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="5103:5422" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="5293:5408" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="5439:5720" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="5598:5706" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="5765:6330" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="6341:7568" ph="/* Handles user intent to enter a mode where they can place an anchor to host or to exit this mode if ... */" />
+            <marker date="1531761778839" expanded="true" signature="7577:10203" ph="/* Handles the user intent to resolve the cloud anchor associated with a room they have typed into the UI. ... */" />
+            <marker date="1531761778839" expanded="true" signature="10212:10390" ph="/// Gets the platform-specific Andy the android prefab. ... " />
+            <marker date="1531761778839" expanded="true" signature="10434:10594" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="10604:10696" ph="/// Check and update the application lifecycle. ... " />
+            <marker date="1531761778839" expanded="true" signature="10747:12067" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="10866:10930" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="11126:11268" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="11355:11407" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="11585:11789" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="11836:12057" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="12077:12156" ph="/// Actually quit the application. ... " />
+            <marker date="1531761778839" expanded="true" signature="12187:12239" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="12249:12407" ph="/// Show an Android toast message. ... " />
+            <marker date="1531761778839" expanded="true" signature="12469:13179" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="12725:13169" ph="{...}" />
+            <marker date="1531761778839" expanded="true" signature="12913:13152" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchor/Scripts/CloudAnchorUIController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <marker date="1528813748000" expanded="true" signature="0:840" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1528813748000" expanded="true" signature="885:8491" ph="{...}" />
+            <marker date="1528813748000" expanded="false" signature="898:1076" ph="..." />
+            <marker date="1528813748000" expanded="true" signature="1082:1175" ph="/// Controller managing UI for the Cloud Anchor Example. ... " />
+            <marker date="1528813748000" expanded="true" signature="1232:8489" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="1247:1357" ph="/// A gameobject parenting UI for displaying feedback and errors. ... " />
+            <marker date="1528813748000" expanded="true" signature="1401:1493" ph="/// A text element displaying the current Room. ... " />
+            <marker date="1528813748000" expanded="true" signature="1533:1632" ph="/// A text element displaying the device's IP Address. ... " />
+            <marker date="1528813748000" expanded="true" signature="1677:1754" ph="/// The host anchor mode button. ... " />
+            <marker date="1528813748000" expanded="true" signature="1808:1888" ph="/// The resolve anchor mode button. ... " />
+            <marker date="1528813748000" expanded="true" signature="1945:2027" ph="/// The root for the input interface. ... " />
+            <marker date="1528813748000" expanded="true" signature="2074:2152" ph="/// The input field for the room. ... " />
+            <marker date="1528813748000" expanded="true" signature="2204:2288" ph="/// The input field for the ip address. ... " />
+            <marker date="1528813748000" expanded="true" signature="2345:2451" ph="/// The field for toggling loopback (local) anchor resoltion. ... " />
+            <marker date="1528813748000" expanded="true" signature="2506:2580" ph="/// The Unity Start() method. ... " />
+            <marker date="1528813748000" expanded="true" signature="2608:2707" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="2717:2804" ph="/// Shows UI for application &quot;Ready Mode&quot;. ... " />
+            <marker date="1528813748000" expanded="true" signature="2840:3252" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="3262:3459" ph="/// Shows UI for the beginning phase of application &quot;Hosting Mode&quot;. ... " />
+            <marker date="1528813748000" expanded="true" signature="3528:4188" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="3869:4042" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="4059:4137" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="4198:4319" ph="/// Shows UI for the attempting to host phase of application &quot;Hosting Mode&quot;. ... " />
+            <marker date="1528813748000" expanded="true" signature="4371:4774" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="4784:4983" ph="/// Shows UI for the beginning phase of application &quot;Resolving Mode&quot;. ... " />
+            <marker date="1528813748000" expanded="true" signature="5054:5649" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="5392:5504" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="5521:5599" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="5659:5785" ph="/// Shows UI for the attempting to resolve phase of application &quot;Resolving Mode&quot;. ... " />
+            <marker date="1528813748000" expanded="true" signature="5842:6243" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="6253:6376" ph="/// Shows UI for the successful resolve phase of application &quot;Resolving Mode&quot;. ... " />
+            <marker date="1528813748000" expanded="true" signature="6423:6831" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="6841:6990" ph="/// Sets the room number in the UI. ... " />
+            <marker date="1528813748000" expanded="true" signature="7043:7114" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="7124:7298" ph="/// Gets the value of the resolve on device checkbox. ... " />
+            <marker date="1528813748000" expanded="true" signature="7344:7411" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="7421:7589" ph="/// Gets the value of the room number input field. ... " />
+            <marker date="1528813748000" expanded="true" signature="7628:7829" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="7733:7796" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="7839:8005" ph="/// Gets the value of the ip address input field. ... " />
+            <marker date="1528813748000" expanded="true" signature="8052:8117" ph="{...}" />
+            <marker date="1528813748000" expanded="true" signature="8127:8322" ph="/// Handles a change to the &quot;Resolve on Device&quot; checkbox. ... " />
+            <marker date="1528813748000" expanded="true" signature="8396:8483" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
